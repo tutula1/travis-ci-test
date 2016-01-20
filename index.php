@@ -10,11 +10,11 @@ class YouTubeTest extends PHPUnit_Framework_TestCase {
   $keyCode = $this->youTube->getKeyCode($url);
   $this->assertEquals('_RRnyChxijA', $keyCode);
  }
- public function testCase2() {
+ /*public function testCase2() {
   $url = 'http://www.youtube.com/watch?v=-WolCnOLPg8&feature=related';
   $keyCode = $this->youTube->getKeyCode($url);
   $this->assertEquals('-WolCnOLPg8', $keyCode);
- }
+ }*/
 }
 /*class RemoteConnectTest extends PHPUnit_Framework_TestCase
 {
