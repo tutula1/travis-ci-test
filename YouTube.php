@@ -13,7 +13,7 @@ class YouTube {
  }
 }
 
-class RemoteConnect
+/*class RemoteConnect
 {
     public function connectToServer($serverName=null)
     {
@@ -28,4 +28,4 @@ class RemoteConnect
     {
         return $this;
     }
-}
+}*/

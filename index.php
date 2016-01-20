@@ -16,7 +16,7 @@ class YouTubeTest extends PHPUnit_Framework_TestCase {
   $this->assertEquals('-WolCnOLPg8', $keyCode);
  }
 }
-class RemoteConnectTest extends PHPUnit_Framework_TestCase
+/*class RemoteConnectTest extends PHPUnit_Framework_TestCase
 {
     public function setUp(){ }
     public function tearDown(){ }
@@ -28,4 +28,4 @@ class RemoteConnectTest extends PHPUnit_Framework_TestCase
         $serverName = 'www.google.com';
         $this->assertTrue($connObj->connectToServer($serverName) !== false);
     }
-}
+}*/
