@@ -8,7 +8,7 @@ class YouTubeTest extends PHPUnit_Framework_TestCase {
  public function testCase1() {
   $url = 'http://www.youtube.com/watch?v=_RRnyChxijA&feature=related&';
   $keyCode = $this->youTube->getKeyCode($url);
-  $this->assertEquals('_RRnyChxijA', $keyCode);
+  $this->assertEquals('_RRnyChxijA1', $keyCode);
  }
  /*public function testCase2() {
   $url = 'http://www.youtube.com/watch?v=-WolCnOLPg8&feature=related';
