@@ -1,6 +1,6 @@
 <?php
 include 'YouTube.php';
-/*class YouTubeTest extends PHPUnit_Framework_TestCase {
+class YouTubeTest extends PHPUnit_Framework_TestCase {
  private $youTube;
  protected function setUp() {
   $this->youTube = new YouTube();
@@ -15,7 +15,7 @@ include 'YouTube.php';
   $keyCode = $this->youTube->getKeyCode($url);
   $this->assertEquals('-WolCnOLPg8', $keyCode);
  }
-}*/
+}
 class RemoteConnectTest extends PHPUnit_Framework_TestCase
 {
     public function setUp(){ }
@@ -25,7 +25,7 @@ class RemoteConnectTest extends PHPUnit_Framework_TestCase
     {
         // test to ensure that the object from an fsockopen is valid
         $connObj = new RemoteConnect();
-        $serverName = 'www.google.com1';
+        $serverName = 'www.google.com';
         $this->assertTrue($connObj->connectToServer($serverName) !== false);
     }
 }
